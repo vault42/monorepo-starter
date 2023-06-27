@@ -1,4 +1,5 @@
 {
+  "name": "react-lib-monorepo",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -7,12 +8,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "@turbo/gen": "^1.9.7",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
-    "prettier": "^2.5.1",
+    "prettier": "^2.8.8",
+    "tsup": "^7.1.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.15.0",
-  "name": "react-lib-monorepo"
+  "packageManager": "pnpm@7.15.0"
 }
