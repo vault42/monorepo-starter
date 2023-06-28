@@ -1,5 +1,5 @@
 {
-  "name": "react-lib-monorepo",
+  "name": "monorepo-starter",
   "private": true,
   "scripts": {
     "build": "turbo run build",
