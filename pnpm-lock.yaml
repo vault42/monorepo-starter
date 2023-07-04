@@ -22,12 +22,12 @@ importers:
 
   examples/vite-react:
     specifiers:
-      '@42arch/react-components': workspace:*
-      '@42arch/react-hooks': workspace:*
       '@types/react': ^18.0.37
       '@types/react-dom': ^18.0.11
       '@typescript-eslint/eslint-plugin': ^5.59.0
       '@typescript-eslint/parser': ^5.59.0
+      '@vault42/react-components': workspace:*
+      '@vault42/react-hooks': workspace:*
       '@vitejs/plugin-react': ^4.0.0
       eslint-config-custom: workspace:*
       react: ^18.2.0
@@ -35,8 +35,8 @@ importers:
       typescript: ^5.0.2
       vite: ^4.3.9
     dependencies:
-      '@42arch/react-components': link:../../packages/react-components
-      '@42arch/react-hooks': link:../../packages/react-hooks
+      '@vault42/react-components': link:../../packages/react-components
+      '@vault42/react-hooks': link:../../packages/react-hooks
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
