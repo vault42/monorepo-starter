@@ -1,9 +1,10 @@
 {
-  "name": "@42arch/react-hooks",
-  "private": false,
+  "name": "@vault42/react-hooks",
   "version": "1.0.0",
+  "private": false,
   "description": "",
   "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "scripts": {
     "build": "tsup",

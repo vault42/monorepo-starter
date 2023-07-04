@@ -1,4 +1,4 @@
-# @vault42/react-hooks
+# @vault42/react-components
 
 ## 1.0.0
 
